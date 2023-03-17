@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@200&family=Rubik+Bubbles&display=swap');
+
+body {
+    /* font-size: 10px; */
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-center {
+    margin: auto;
+    max-width: 70vw;
+    text-align: right;
+}
+
+.title_bar{
+    text-align: center;
+    margin: 11px;
+}
+
+.main_div {
+    height: auto;
+    width: 307px;
+    background-color: rgb(211, 243, 232);
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 1px;
+
+    border: 2px solid rgb(54, 28, 28);
+
+    border-radius: 0px 0px 5px 5px;
+}
+
+.inner {
+    height: 79.5px;
+    width: 74.7px;
+    /* background-color: rgb(47, 212, 231); */
+    background-image: linear-gradient(90deg,hsl(215, 85%, 68%) 50%,rgb(179, 188, 203));
+    margin: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inner:hover {
+    background-color: rgb(123, 214, 245);
+}
+
+.display {
+    height: 71px;
+    width: 310px;
+    background-color: rgba(201, 198, 198, 0.568);
+    /* background-image: linear-gradient(90deg,hsl(215, 85%, 68%) 50%,rgb(179, 188, 203)); */
+    border: 2px solid rgb(54, 28, 28);
+    /* border-radius: 0px 0px 0px 5px; */
+    /* position: absolute; */
+}
+
+.appear {
+    /* margin: 6px 52px; */
+    padding: 6px;
+    margin: 9px;
+}
+
+
+.operator {
+    height: 80px;
+    width: 306px;
+    background-color: rgb(212, 247, 235);
+    display: flex;
+    border: 2px solid rgb(54, 28, 28);
+    padding: 2px;
+    /* border-radius: 5px; */
+}
+
+.op {
+    height: 79.5px;
+    width: 80px;
+    /* background-color: rgb(47, 212, 231); */
+    background-image: linear-gradient(90deg,hsl(215, 85%, 68%) 50%,rgb(179, 188, 203));
+    margin: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.op:hover {
+    background-color: rgb(123, 214, 245);
+}
+
+button {
+    border: 2px solid rgb(10, 58, 71);
+    font-size: large;
+}
+.title{
+    height: 60px;
+    width: 309px;
+    border: 2px solid rgb(54, 28, 28);
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(7, 76, 250, 0.489);
+}
